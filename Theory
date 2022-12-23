@@ -1,0 +1,18 @@
+CNN has first a convolutional layer then a fully connected layer.
+The starting layers(convolutional) detect edges(primitive features)
+Then the next layers(convolutional) combine these edges to form a picture which is given to the fully connected layer.
+
+grey scale image
+rgb image
+
+in mnist dataset we have a (28,28) image and each grid represents a number between 0-255
+0-black
+255-white
+
+2d matrix
+
+the model will process 2D numpy array
+
+coloured image-3 channels-red,blue,green
+(228,228,3)
+3D matrix
