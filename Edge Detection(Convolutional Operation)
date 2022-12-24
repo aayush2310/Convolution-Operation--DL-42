@@ -1,1 +1,8 @@
 edges are cange in intensity.
+We can have many types of filter and depending upon the values in the matrix filters are determined to detect the horizontal/vertical/slant edges.We dont need to worry 
+about the values in the matrix because they will be initially initialised randomly and then through back propagation they will get set.
+The values of filter behave exactly same as weights in ANN.
+This is why CNN is so successful bcz. it is not relying on any particular filter,it makes its own filter depending on the problem.
+In CNN,when our feature map gets prepared,then we apply relu over all the numbers in the feature map.
+
+If I have multiple filters for (rbg) image then we will get the o/p which will act as i/p for the further layers.
